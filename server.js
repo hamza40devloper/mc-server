@@ -17,7 +17,7 @@ const activeBots = new Map();
 const CLIENT_ID = process.env.DISCORD_CLIENT_ID;
 const CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET;
 const REDIRECT_URI = process.env.DISCORD_REDIRECT_URI; 
-const BLOGGER_URL = 'https://yourblog.blogspot.com'; 
+const BLOGGER_URL = 'https://nonnetworkofficial.blogspot.com'; 
 
 // إعداد الاتصال بقاعدة بيانات Postgres 
 const pool = new Pool({
